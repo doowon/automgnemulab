@@ -1,0 +1,53 @@
+node cisco1 switch:1 *lan:* - real-switch:0 - 
+node cisco3 switch:1 *lan:* - real-switch:0 - 
+node cisco4 switch:1 *lan:* - real-switch:0 - 
+node cisco8 switch:1 *lan:* - real-switch:0 - 
+node cisco10 switch:1 *lan:* - real-switch:0 - 
+node cisco9 switch:1 *lan:* - real-switch:0 - 
+node cisco5 switch:1 *lan:* - real-switch:0 - 
+node procurve-pgeni-wash switch:1 *lan:* - real-switch:0 - 
+node procurve-pgeni-salt switch:1 *lan:* - real-switch:0 - 
+node procurve-pgeni-kans switch:1 *lan:* - real-switch:0 - 
+node procurve3 switch:1 *lan:* - real-switch:0 - 
+node procurve1 switch:1 *lan:* - real-switch:0 - 
+node apcon1 switch:1 *lan:* *wire:* - real-switch:0 - 
+node procurve4 switch:1 *lan:* - real-switch:0 - 
+node procurve5 switch:1 *lan:* - real-switch:0 - 
+node procurve-pgeni-hous switch:1 *lan:* - real-switch:0 - 
+node procurve-pgeni-atla switch:1 *lan:* - real-switch:0 - 
+node procurve-pgeni-losa switch:1 *lan:* - real-switch:0 - 
+node arista1 switch:1 *lan:* - real-switch:0 - 
+node procurve-pgeni-uen switch:1 *lan:* - real-switch:0 - 
+node procurveA switch:1 *lan:* - real-switch:0 - 
+node cisco13 switch:1 *lan:* - real-switch:0 - 
+node pc133 pc850:1 pc:1 delay:2 delay-pc850:2 - firewallable:0 OS-363:0 OS-365:0 OS-287:0 OS-328:0 OS-528:0 OS-290:0 OS-279:0 OS-331:0 OS-294:0 OS-293:0 OS-329:0 OS-281:0 OS-332:0 OS-334:0 OS-286:0 OS-285:0 OS-283:0 OS-292:0 OS-330:0 OS-297:0 OS-284:0 OS-336:0 OS-295:0 OS-337:0 OS-312:0 OS-1412:0 OS-341:0 OS-346:0 OS-296:0 OS-339:0 OS-299:0 OS-308:0 OS-306:0 OS-326:0 OS-298:0 OS-350:0 OS-335:0 OS-355:0 OS-340:0 OS-300:0 OS-305:0 OS-303:0 OS-1346:0 OS-353:0 OS-307:0 OS-338:0 OS-349:0 OS-347:0 OS-320:0 OS-321:0 OS-301:0 OS-302:0 OS-1325:0 OS-310:0 OS-1033:0 OS-323:0 OS-876:0 OS-878:0 OS-879:0 OS-926:0 OS-991:0 OS-977:0 OS-989:0 OS-992:0 OS-1006:0 OS-2653:0 OS-1172:0 OS-1174:0 OS-1232:0 OS-940:0 OS-304:0 OS-1477:0 OS-1664:0 OS-1668:0 OS-1685:0 OS-1686:0 OS-1701:0 OS-1761:0 OS-1828:0 OS-1937:0 OS-1952:0 OS-2098:0 OS-2111:0 OS-2260:0 OS-2281:0 OS-2343:0 OS-2286:0 OS-2471:0 OS-2492:0 OS-2329:0 OS-2693:0 OS-2788:0 OS-2794:0 OS-2795:0 OS-2972:0 OS-3036:0 OS-3058:0 OS-3243:0 OS-3282:0 OS-3283:0 OS-526:0 OS-526:0 OS-362:0 OS-278:0 OS-361:0 OS-406:0 OS-407:0 connected-to-cisco4:0.0 connected-to-cisco2:0.0 - 
+node pc130 pc850:1 pc:1 delay:2 delay-pc850:2 - firewallable:0 OS-363:0 OS-365:0 OS-287:0 OS-328:0 OS-528:0 OS-290:0 OS-279:0 OS-331:0 OS-294:0 OS-293:0 OS-329:0 OS-281:0 OS-332:0 OS-334:0 OS-286:0 OS-285:0 OS-283:0 OS-292:0 OS-330:0 OS-297:0 OS-284:0 OS-336:0 OS-295:0 OS-337:0 OS-312:0 OS-1412:0 OS-341:0 OS-346:0 OS-296:0 OS-339:0 OS-299:0 OS-308:0 OS-306:0 OS-326:0 OS-298:0 OS-350:0 OS-335:0 OS-355:0 OS-340:0 OS-300:0 OS-305:0 OS-303:0 OS-1346:0 OS-353:0 OS-307:0 OS-338:0 OS-349:0 OS-347:0 OS-320:0 OS-321:0 OS-301:0 OS-302:0 OS-1325:0 OS-310:0 OS-1033:0 OS-323:0 OS-876:0 OS-878:0 OS-879:0 OS-926:0 OS-991:0 OS-977:0 OS-989:0 OS-992:0 OS-1006:0 OS-2653:0 OS-1172:0 OS-1174:0 OS-1232:0 OS-940:0 OS-304:0 OS-1477:0 OS-1664:0 OS-1668:0 OS-1685:0 OS-1686:0 OS-1701:0 OS-1761:0 OS-1828:0 OS-1937:0 OS-1952:0 OS-2098:0 OS-2111:0 OS-2260:0 OS-2281:0 OS-2343:0 OS-2286:0 OS-2471:0 OS-2492:0 OS-2329:0 OS-2693:0 OS-2788:0 OS-2794:0 OS-2795:0 OS-2972:0 OS-3036:0 OS-3058:0 OS-3243:0 OS-3282:0 OS-3283:0 OS-526:0 OS-526:0 OS-362:0 OS-278:0 OS-361:0 OS-406:0 OS-407:0 connected-to-cisco4:0.0 connected-to-cisco2:0.0 - 
+link link-pc133:eth0-cisco4:(null) pc133:pc133/eth0 cisco4:(null) 100000 0 0 1 ethernet ethernet-cisco4 ethernet-fxp ethernet-100000
+link link-pc133:eth1-cisco4:(null) pc133:pc133/eth1 cisco4:(null) 100000 0 0 1 ethernet ethernet-cisco4 ethernet-fxp ethernet-100000
+link link-pc133:eth3-cisco4:(null) pc133:pc133/eth3 cisco4:(null) 100000 0 0 1 ethernet ethernet-cisco4 ethernet-fxp ethernet-100000
+link link-pc133:eth4-cisco4:(null) pc133:pc133/eth4 cisco4:(null) 100000 0 0 1 ethernet ethernet-cisco4 ethernet-fxp ethernet-100000
+link link-pc130:eth0-cisco4:(null) pc130:pc130/eth0 cisco4:(null) 100000 0 0 1 ethernet ethernet-cisco4 ethernet-fxp ethernet-100000
+link link-pc130:eth1-cisco4:(null) pc130:pc130/eth1 cisco4:(null) 100000 0 0 1 ethernet ethernet-cisco4 ethernet-fxp ethernet-100000
+link link-pc130:eth3-cisco4:(null) pc130:pc130/eth3 cisco4:(null) 100000 0 0 1 ethernet ethernet-cisco4 ethernet-fxp ethernet-100000
+link link-pc130:eth4-cisco4:(null) pc130:pc130/eth4 cisco4:(null) 100000 0 0 1 ethernet ethernet-cisco4 ethernet-fxp ethernet-100000
+link link-procurve-pgeni-losa:procurve-pgeni-hous procurve-pgeni-losa procurve-pgeni-hous 1000000 0 0 1 ethernet
+link link-procurve1:procurve5 procurve1 procurve5 28800000 0 0 1 ethernet
+link link-procurve-pgeni-hous:procurve-pgeni-atla procurve-pgeni-hous procurve-pgeni-atla 1000000 0 0 1 ethernet
+link link-procurve1:procurve3 procurve1 procurve3 28800000 0 0 1 ethernet
+link link-procurve-pgeni-hous:procurve-pgeni-kans procurve-pgeni-hous procurve-pgeni-kans 1000000 0 0 1 ethernet
+link link-cisco3:cisco8 cisco3 cisco8 1300000 0 0 1 ethernet
+link link-procurve1:cisco8 procurve1 cisco8 24400000 0 0 1 ethernet
+link link-procurve-pgeni-uen:procurveA procurve-pgeni-uen procurveA 10000000 0 0 1 ethernet
+link link-procurve-pgeni-salt:procurve-pgeni-kans procurve-pgeni-salt procurve-pgeni-kans 1000000 0 0 1 ethernet
+link link-cisco10:cisco3 cisco10 cisco3 1000000 0 0 1 ethernet
+link link-procurve-pgeni-kans:procurve-pgeni-wash procurve-pgeni-kans procurve-pgeni-wash 1000000 0 0 1 ethernet
+link link-cisco4:cisco3 cisco4 cisco3 4000000 0 0 1 ethernet
+link link-procurve-pgeni-uen:procurve-pgeni-salt procurve-pgeni-uen procurve-pgeni-salt 10000000 0 0 1 ethernet
+link link-procurve1:procurve4 procurve1 procurve4 28800000 0 0 1 ethernet
+link link-cisco1:cisco3 cisco1 cisco3 4000000 0 0 1 ethernet
+link link-procurve1:procurveA procurve1 procurveA 1000000 0 0 1 ethernet
+link link-procurve-pgeni-atla:procurve-pgeni-wash procurve-pgeni-atla procurve-pgeni-wash 1000000 0 0 1 ethernet
+link link-procurve-pgeni-salt:procurve-pgeni-losa procurve-pgeni-salt procurve-pgeni-losa 1000000 0 0 1 ethernet
+link link-cisco9:cisco3 cisco9 cisco3 1000000 0 0 1 ethernet
+link link-cisco8:cisco5 cisco8 cisco5 8000000 0 0 1 ethernet
+link link-procurve1:cisco13 procurve1 cisco13 200000 0 0 1 ethernet
