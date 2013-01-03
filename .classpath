@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/rules"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="DROOLS/Drools"/>
+	<classpathentry kind="lib" path="libs/snmp4j-1.8.1.jar" sourcepath="/home/dw/.m2/repository/org/snmp4j/snmp4j/1.8.1/snmp4j-1.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="libs/snmp4j-agent-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

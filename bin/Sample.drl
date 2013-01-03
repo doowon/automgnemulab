@@ -1,0 +1,15 @@
+package com.sample
+ 
+rule "Eth1 is failed down"
+    when
+        $snmp : SNMPModel(status == 2)
+    then
+        System.out.println( $snmp.message );
+end
+
+rule "Events are received"
+    when
+        $snmp : SNMPModel(status == 9999)
+    then
+        System.out.println( "[Drool] "  + $snmp.message );
+end
